@@ -1,0 +1,15 @@
+🚀 API Testing Utility - Sample Upload File
+
+This file was created to demonstrate GitHub file upload functionality.
+
+Features:
+- Universal API testing
+- JSON-based configuration
+- Multiple HTTP methods support
+- Authentication handling
+
+Created by: Java API Testing Utility
+Date: 2024
+Purpose: Testing GitHub API file upload feature
+
+You can safely delete this file after testing.
