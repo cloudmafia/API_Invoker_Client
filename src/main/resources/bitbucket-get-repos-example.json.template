@@ -1,0 +1,10 @@
+{
+  "METHOD": "GET",
+  "HOST": "http://localhost:7990",
+  "NAME": "rest/api/1.0/projects/TEST/repos",
+  "HEADERS": {
+    "Authorization": "Bearer ${BITBUCKET_TOKEN}",
+    "Accept": "application/json"
+  },
+  "_comment": "Replace ${BITBUCKET_TOKEN} with your actual Bitbucket token in the .env file"
+}

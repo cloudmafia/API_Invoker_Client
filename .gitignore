@@ -1,0 +1,72 @@
+# Build
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Environment files
+.env
+*.env.*
+!.env.example
+
+# Ignore all JSON files except template files
+*.json
+!*.json.template
+!**/*.json.template
+
+# Logs
+logs/
+*.log
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.properties
+
+# Local configuration files
+application-*.properties
+application-*.yml
+
+# Sensitive files
+*.p12
+*.pfx
+*.pem
+*.crt
+*.key
+*.jks
+*.keystore
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs
+hs_err_pid*
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
